@@ -1,3 +1,3 @@
 num1 = int(input())
 num2 = int(input())
-print("PROD =", num1 * num2)
+print(f"PROD = {num1 * num2}")

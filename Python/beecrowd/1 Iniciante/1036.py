@@ -7,8 +7,9 @@ if delta < 0.0 or a == 0.0:
     print("Impossivel calcular")
     exit()
 
-def BhaskaraFormula(deltaSqrt):
-    return round((-b + deltaSqrt) / (2 * a), 5)
 
-print("R1 =", BhaskaraFormula(math.sqrt(delta)))
-print("R2 =", BhaskaraFormula(-math.sqrt(delta)))
+def bhaskara_formula(delta_sqrt):
+    return round((-b + delta_sqrt) / (2 * a), 5)
+
+print("R1 =", bhaskara_formula(math.sqrt(delta)))
+print("R2 =", bhaskara_formula(-math.sqrt(delta)))

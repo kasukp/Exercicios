@@ -1,6 +1,7 @@
 a, b, c, d = [int(i) for i in input().split()]
 
-def SelectionTest():
+
+def selection_test():
     ## Inverso dos requisitos
     if not b > c:
         return 1
@@ -14,7 +15,7 @@ def SelectionTest():
         return 1
     return 0
 
-if SelectionTest() != 0:
+if selection_test() != 0:
     print("Valores nao aceitos")
 else:
     print("Valores aceitos")

@@ -1,6 +1,6 @@
-horasViagem =  int(input())
-velocidadeMedia = int(input())
+horas_viagem =  int(input())
+velocidade_media = int(input())
 
-minimoLitros = velocidadeMedia * horasViagem / 12
+minimo_litros = velocidade_media * horas_viagem / 12
 
-print("{:.3f}".format(minimoLitros))
+print(f"{minimo_litros:.3f}")

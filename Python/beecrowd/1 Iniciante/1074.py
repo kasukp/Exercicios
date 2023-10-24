@@ -8,7 +8,7 @@ for i in range(int(input())):
         print("EVEN", end=" ")
     else: 
         print("ODD", end=" ")
-    
+
     if num < 0:
         print("NEGATIVE")
     else:

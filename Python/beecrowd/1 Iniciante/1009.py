@@ -1,5 +1,5 @@
 nome = input()
 salario = float(input())
-totalVendas = float(input())
+total_vendas = float(input())
 
-print("TOTAL = R$ {:.2f}".format(salario + totalVendas * 0.15))
+print(f"TOTAL = R$ {salario + total_vendas * 0.15:.2f}")

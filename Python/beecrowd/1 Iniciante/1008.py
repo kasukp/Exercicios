@@ -1,6 +1,6 @@
 number = int(input())
-horasTrabalhadas = int(input())
-salarioPorHora = float(input())
+horas_trabalhadas = int(input())
+salario_por_hora = float(input())
 
-print("NUMBER =", number)
-print("SALARY = U$ {:.2f}".format(horasTrabalhadas * salarioPorHora))
+print(f"NUMBER = {number}")
+print(f"SALARY = U$ {horas_trabalhadas * salario_por_hora:.2f}")

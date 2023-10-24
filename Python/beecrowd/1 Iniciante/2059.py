@@ -1,5 +1,6 @@
 game = [int(i) for i in input().split()]
 
+
 def win(i):
     print(f"Jogador {i} ganha!")
 
